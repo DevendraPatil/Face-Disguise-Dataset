@@ -17,7 +17,7 @@ The disguises in the dataset are namely:
 9.Cap and beard <br />
 10.Cap, glasses, and scarf <br />
 
-The file joints.mat contains 14 joint locations for each image.
+The file joints.mat contains 14 joint locations for each image. joints.mat is a 14x2x2000 matrix file.For each image in the dataset there are 14(X,Y) pixel coordinates cooresponding to the 14 joint locations.joints.mat file gives the ground truth location of each joint for both Complex and Simple Background images.For example, a 14x2x1 cell corresponds to the joint locations of the 1st image in complex and simple background dataset. <br />
 ![fig-1n](https://user-images.githubusercontent.com/16295218/31212987-81a48e88-a9c1-11e7-8595-a9ddd6ae5e64.jpg)
 
 The ordering of the joints is as follows:
