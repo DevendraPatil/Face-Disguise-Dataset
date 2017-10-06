@@ -1,2 +1,45 @@
-# Face-Disguise-Dataset
-This is the dataset for our work "Disguised Face Identification (DFI) with Facial KeyPoints using Spatial Fusion Convolutional Network"
+# Face Disguise Dataset: <br />
+Amarjot Singh , Devendra Patil,G Meghana Reddy and S.N.Omkar
+
+The dataset contains 4000 images(2000 images for each simple and complex backgrounds) recorded with male and female subjects aged from 18 years to 30 years. The dataset was collected in 8 different backgrounds,25 subjects and 10 different disguises. 
+![fig-2](https://user-images.githubusercontent.com/16295218/31212989-87f47c26-a9c1-11e7-8e8f-104c8dcdca8d.jpg)
+
+The disguises in the dataset are namely: 
+
+1.Sun-glasses <br />
+2.Cap <br />
+3.Scarf <br />
+4.Beard <br />
+5.Glasses and cap <br />
+6.Glasses and scarf <br />
+7.Glasses and beard <br />
+8.Cap and scarf <br />
+9.Cap and beard <br />
+10.Cap, glasses, and scarf <br />
+
+The file joints.mat contains 14 joint locations for each image.
+![fig-1n](https://user-images.githubusercontent.com/16295218/31212987-81a48e88-a9c1-11e7-8595-a9ddd6ae5e64.jpg)
+
+The ordering of the joints is as follows:
+
+P1:Right Eyebrow outer point <br />
+P2:Right Eyebrow inner point <br />
+P3:Left Eyebrow inner point <br />
+P4:Left Eyebrow outer point <br />
+P5:Right Eye outer point <br />
+P6:Right Eye middle point <br />
+P7:Right Eye inner point <br />
+P8:Right Eye inner point <br />
+P9:Right Eye middle point <br />
+P10:Right Eye outer point <br />
+P11:Nose tip <br />
+P12:Lip right end <br />
+P13:Lip middle <br />
+P14:Lip left end <br />
+
+
+If you use this dataset please cite:
+
+Amarjot Singh, Devendra Patil, G Meghana Reddy and S.N Omkar <br />
+"Disguised Face Identification (DFI) with Facial KeyPoints using Spatial Fusion Convolutional Network"
+ IEEE International Conference on Computer Vision Workshops (ICCVW) 2017
